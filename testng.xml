@@ -4,8 +4,8 @@
 <suite name="All Test Suite">
     <test verbose="2"  name="Test">
         <classes>
-            <class name="TpPageObject"/>
-            <class name="TpTest2"/>
+            <class name="test.java.TpPageObject"/>
+            <class name="test.java.TpTest2"/>
         </classes>
 
     </test>

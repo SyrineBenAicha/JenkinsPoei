@@ -1,4 +1,8 @@
-import commun.SetupTeardown;
+package test.java;
+
+
+import main.java.HomePage;
+import main.java.commun.SetupTeardown;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

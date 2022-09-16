@@ -1,0 +1,12 @@
+{
+  "testExecutionKey" : "POEI22-700",
+  "info" : {
+    "summary" : "Execution of automated tests Syrine",
+    "description" : "This execution is automatically"
+  },
+  "tests" : [ {
+    "testKey" : "POEI22-674",
+    "comment" : "Successful execution",
+    "status" : "PASSED"
+  } ]
+}

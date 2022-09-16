@@ -1,5 +1,10 @@
+package test.java;
 
-import commun.SetupTeardown;
+import main.java.CartPage;
+import main.java.HomePage;
+import main.java.ProductPage;
+import main.java.SearchResultPage;
+import main.java.commun.SetupTeardown;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
