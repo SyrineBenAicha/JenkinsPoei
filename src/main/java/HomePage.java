@@ -14,7 +14,7 @@ public class HomePage {
 
     private WebDriver driver;
     private By acceptCookieSelector = By.cssSelector("[data-cel-widget=sp-cc-accept]");
-    private By ResearchSelector = By.cssSelector("[55aria-label=Rechercher]"); //By.cssSelector("[55aria-label=Rechercher]");
+    private By ResearchSelector = By.cssSelector("[aria-label=Rechercher]"); //By.cssSelector("[55aria-label=Rechercher]");
     private By ButtonSelector = By.cssSelector("[type=submit]");
 
     private final int TIMEOUT_COOKIE = 6;
