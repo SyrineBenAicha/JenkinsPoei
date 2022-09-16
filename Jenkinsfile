@@ -12,5 +12,10 @@ pipeline {
                  bat "mvn test"
             }
         }
+        post {
+                always {
+                  step([$class: 'Publisher', reportFilenamePattern: '**/testng-results.xml'])
+                }
+              }
     }
 }
